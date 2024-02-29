@@ -1,4 +1,4 @@
-#Implement a program for Binary to Decimal Conversion
+//Implement a program for Binary to Decimal Conversion
 
 #include<stdio.h>
 void main()
