@@ -1,3 +1,5 @@
+//Write a program that prompts the user to enter 10 integers and display the integers in decreasing order using loop ,Use the ‘break’
+
 import java.util.*;
 class Decreasing
 {
