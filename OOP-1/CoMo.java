@@ -1,27 +1,27 @@
 // Write a program to demonstrate method overloading and constructor overloading.
 
 public class Hannibal {
-	// Constructor overloading
+// Constructor overloading
 
-    // Default Constructor
+       // Default Constructor
 	Hannibal() {
     	System.out.println("Default Constructor:");
 	}
     
-    // Constructor with One Parameter
+       // Constructor with One Parameter
 	Hannibal(String Character) {
         System.out.println("Constructor with One Parameter: "+Character);
 	}
 
 
-	// Method overloading
+// Method overloading
 
-    // Default Method
+        // Default Method
 	public void display() {
     	System.out.println("Method with no Parameters: ");
 	}
 
-    // Method with one Parameter
+        // Method with one Parameter
 	void display(String Character) {
     	System.out.println("Method with one Parameter: "+Character);
 	}
