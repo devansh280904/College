@@ -1,15 +1,15 @@
 // Write a program to demonstrate the use of constructor (with and without parameter) and destructor.
 
-class Hannibal {
+class CoDe {
 
     // Constructor without any Parameters
-	Hannibal() {
+	CoDe() {
     	  System.out.println("Constructor without any Parameters:");
         System.out.println("Hannibal is a Doctor.");
     }
     
     // Constructor with One Parameter
-	Hannibal(String Character) {
+	CoDe(String Character) {
         System.out.println("Constructor with One Parameter: ");
         System.out.println(Character);
     }
@@ -20,8 +20,8 @@ class Hannibal {
 
     }
     public static void main(String[] args) {
-      	Hannibal O= new Hannibal();
-    	  Hannibal O1 = new Hannibal("He is From the Movie Red Dragon.");
+      	CoDe O= new CoDe();
+    	  CoDe O1 = new CoDe("He is From the Movie Red Dragon.");
 
         // Object Destroyer
     	  O = null;
