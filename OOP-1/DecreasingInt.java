@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 // Main class
-public class Hannibal{
+public class DecreasingInt{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[]num= new int[10];
