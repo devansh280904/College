@@ -1,15 +1,15 @@
 // Write a program to demonstrate method overloading and constructor overloading.
 
-public class Hannibal {
+public class CoMo {
 // Constructor overloading
 
        // Default Constructor
-	Hannibal() {
+	CoMo() {
     	System.out.println("Default Constructor:");
 	}
     
        // Constructor with One Parameter
-	Hannibal(String Character) {
+	CoMo(String Character) {
         System.out.println("Constructor with One Parameter: "+Character);
 	}
 
@@ -28,8 +28,8 @@ public class Hannibal {
 
 	public static void main(String[] args) {
         // Constructor Overloading Demonstration
-    	Hannibal O = new Hannibal();
-    	Hannibal O1 = new Hannibal("Hannibal is a movie Character.");
+    	CoMo O = new CoMo();
+    	CoMo O1 = new CoMo("Hannibal is a movie Character.");
 
         // Method Overloading Demonstration
     	O.display();
