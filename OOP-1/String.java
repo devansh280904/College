@@ -1,5 +1,5 @@
 import java.util.*;
-public class Hannibal {
+public class Strings3 {
     public static void main(String[] args) {
         
         //a. Input a string from standard input
