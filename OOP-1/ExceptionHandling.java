@@ -4,18 +4,16 @@ public class ExceptionHandling {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("ENTER DIVIDEND: ");
-        double dd=sc.nextDouble();
+        int dd=sc.nextInt();
         System.out.print("ENTER DIVISOR: ");
-        double dr=sc.nextDouble();
+        int dr=sc.nextInt();
 
         try{
-            double ans=dd/dr;
+            int ans=dd/dr;
             System.out.println("Result of the Division:"+ans);
-        }
-        catch (ArithmeticException e) {
+        }catch (ArithmeticException e) {
         	System.out.println("The value of Divisor cannot be zero.");
-        }
-        catch (NumberFormatException e) {
+        }catch (NumberFormatException e) {
             System.out.println("Invalid input! Please enter valid numbers.");
         }
         finally{
