@@ -8,7 +8,7 @@ class MO{
 // Subclass (inheritance)
 class hannibal extends MO{
     void display(){
-        System.out.println("Hannibal is Played by Anthiny Hopkins");        
+        System.out.println("Hannibal is Played by Anthony Hopkins");        
     }
 }
 
