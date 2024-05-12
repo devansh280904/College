@@ -7,7 +7,7 @@ interface hannibal{
 //single Inheritance: Child class inherits from one parent class
 class name implements hannibal{
     public void display(){
-        System.out.println("Actor's name is Anthoy Hopkins");
+        System.out.println("Actor's name is Anthony Hopkins");
     }
 }
 
