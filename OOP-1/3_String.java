@@ -1,5 +1,5 @@
 import java.util.*;
-public class Strings3 {
+public class 3_String {
     public static void main(String[] args) {
         
         //a. Input a string from standard input
