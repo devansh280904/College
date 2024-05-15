@@ -54,5 +54,6 @@ start: nop
     MVI A, 08H; 0000 1000 
   	RLC; 0 0001 0000
   	STA 0005H;
+hlt
 
    
