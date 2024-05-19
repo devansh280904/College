@@ -18,7 +18,8 @@ class tiger extends cat{
     }
 }
 
-// Another parent class for Multiple inheritance
+
+// Another parent class 
 class Wildanimal{
     public void display(){
         System.out.println("Wildanimals are dangerous animal");
@@ -42,14 +43,18 @@ class dog extends Wildanimal{
 }
 
 
-//subclass lion inheritates from parent class wildanimal and interface animal
-class lion extends Wildanimal implements animal{
+//subclass lion inheritates from subclass cat and interface animal(multiple inheritance)
+//lion inheritates from cat which is an inheritance(single) and also multiple inheritance (hybrid inheritance)
+class lion extends cat implements animal{
     public void display(){
         System.out.println("Lion is a wild animal.");
     }
 }
 
-//Interface petanimals for hybrid inheritance
+
+
+// Another way for Hybrid inheritance
+//Interface petanimals for hybrid
 interface petanimals {
     void display();
 }
