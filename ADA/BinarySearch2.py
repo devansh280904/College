@@ -24,7 +24,7 @@ for i in range(num):
 num=int(input("Enter element to be searched:"))
 
 res= BinarySearch(arr,num,0,len(arr)-1)
-if(res==False):
+if(res==-1):
     print("Element not found.")
 else:
     print("Element is found at index:",res)
