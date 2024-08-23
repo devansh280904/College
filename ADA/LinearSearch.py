@@ -14,7 +14,7 @@ TS=int(input("Enter element to be Searched:"))
 
 res=Linear_search(arr,TS)
 print(arr)
-if(res==False):
+if(res==-1):
     print("Element not found.")
 else:
     print("Element is found at index:",res)
