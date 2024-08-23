@@ -1,5 +1,6 @@
 # Implementation and Time analysis of Binary search algorithm.
 
+#Binary search in iterative method
 import time
 
 start=time.time()
@@ -30,3 +31,5 @@ else:
 end=time.time()
 
 print("Execution time:",end-start,"seconds")
+
+
