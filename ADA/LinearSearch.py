@@ -13,11 +13,12 @@ arr=[10,20,25,30,35,40,45,50,55]
 TS=int(input("Enter element to be Searched:"))
 
 res=Linear_search(arr,TS)
+end=time.time()
 print(arr)
+
 if(res==-1):
     print("Element not found.")
 else:
     print("Element is found at index:",res)
   
-end=time.time()
 print("Execution time:",end-start,"seconds")
