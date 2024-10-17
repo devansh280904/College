@@ -1,5 +1,5 @@
 import time
-start=time.time()
+
 
 def MergeSort(arr):
     if len(arr)<=1:
@@ -32,6 +32,7 @@ for i in range(num):
     val=int(input("Enter the values: "))
     arr.append(val)
 print("Unsorted Array:",arr)  
+start=time.time()
 res=MergeSort(arr)
 end=time.time()
 print("Sorted Array:",res)
