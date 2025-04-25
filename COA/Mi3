@@ -1,0 +1,31 @@
+LXI H, 2000H ; Load memory location 2000H in HL register pair
+
+MOV B, M ; Load length of array in B register
+
+INX H ; Increment HL to point to start of array
+
+MOV A, M ; Initialize maximum value with first element
+
+INX H ; Increment HL to point to next element
+
+DCR B ; Decrement count of elements
+
+LOOP:
+
+CMP M ; Compare current element with maximum value
+
+JNC SKIP ; If current element is not greater, skip
+
+MOV A, M ; Update maximum value
+
+SKIP:
+
+INX H ; Increment HL to point to next element
+
+DCR B ; Decrement count of elements
+
+JNZ LOOP ; If not all elements are processed, loop
+
+STA 3000H ; Store maximum value in memory location 3000H
+
+hlt
